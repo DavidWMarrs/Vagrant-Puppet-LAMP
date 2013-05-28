@@ -1,0 +1,2 @@
+Vagrant-Puppet-LAMP
+===================
