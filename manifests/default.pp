@@ -11,7 +11,7 @@ include apache
 apache::vhost {'vagrant':
   vhost_name => '*',
   port => '80',
-  docroot => '/vagrant/www/',
+  docroot => '/var/www/',
   override => 'All'
 }
 
