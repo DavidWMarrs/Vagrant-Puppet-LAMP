@@ -8,10 +8,10 @@ Exec['apt-update'] -> Package <| |>
 
 include apache
 
-apache::vhost {'vagrant':
+apache::vhost {'mysite.lvho.st':
   vhost_name => '*',
   port => '80',
-  docroot => '/var/www/',
+  docroot => '/var/www/mysite',
   override => 'All'
 }
 
